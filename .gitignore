@@ -1,3 +1,15 @@
+# Ignore everything
 *
-!*.c
+
+# Allow directories to be traversed
+!*/
+
+# Track all C source files
+!**/*.c
+
+# Track this file
 !.gitignore
+
+# Ignore compiled binaries and editor swap files
+a.out
+*.swp
